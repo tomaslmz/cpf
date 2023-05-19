@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    user-select: none;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+}
+
+button#copiar {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+    font-weight: bolder;
+}
+
+.input {
+    height: 20px;
+}
+
+section {
+    display: inline-block;
+}
+
+#gerador {
+    position: fixed;
+
+    left: 10%;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.menu {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.menu2 {
+    text-align: center;
+}
+
+#verificador {
+    position: fixed;
+
+    right: 10%;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+#resultado {
+    font-weight: bolder;
+    display: none;
+}
+
+footer {
+    font-size: 20px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+}
+
+footer a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

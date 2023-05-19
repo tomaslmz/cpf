@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerar/Verificar CPF</h1>
+    </header>
+
+    <main>
+        <section id="gerador" class="menu">
+            <div class="menu2">
+                <h3>Gerar CPF</h3>
+
+                <button id="copiar"><img src="./images/copy-icon.png" class="image"></button>
+                <input type="text" id="gerar" class="input">
+                    <button onclick="gerar()">Gerar</button>
+                <br>
+                <div id="pontuacao">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="">Pontuação</label>
+                </div>
+            </div>
+        </section>
+
+        <section id="verificador" class="menu">
+            <div class="menu2">
+                <h3>Verificar CPF</h3>
+
+                <input type="text" id="verificar" class="input">
+                <button onclick="verificar()">Verificar</button>
+                <p id="resultado"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site desenvolvido por <a href="https://github.com/tomaslmz" target="_blank">Tomás</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
