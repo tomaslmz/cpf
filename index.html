@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 </head>
 <body>
     <header>
@@ -17,7 +19,7 @@
             <div class="menu2">
                 <h3>Gerar CPF</h3>
 
-                <button id="copiar"><img src="./images/copy-icon.png" class="image"></button>
+                <button id="copiar" onclick="copiar()"><img src="./images/copy-icon.png" class="image"></button>
                 <input type="text" id="gerar" class="input">
                     <button onclick="gerar()">Gerar</button>
                 <br>
@@ -32,7 +34,7 @@
             <div class="menu2">
                 <h3>Verificar CPF</h3>
 
-                <input type="text" id="verificar" class="input">
+                <input type="text" id="verificar" class="input" name="verificar" placeholder="000.000.000-00">
                 <button onclick="verificar()">Verificar</button>
                 <p id="resultado"></p>
             </div>

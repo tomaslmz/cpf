@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    $("#verificar").mask("000.000.000-00");
+});
+
 function gerar() {
     var numeros = Array(10);
 
@@ -107,3 +111,10 @@ function verificar() {
     }
 }
 
+function copiar() {
+    const texto = document.getElementById("gerar");
+
+    texto.select();
+    texto.setSelectionRange(0, 9999);
+    document.execCommand("copy");
+}

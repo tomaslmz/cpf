@@ -41,37 +41,46 @@ button {
 
 .input {
     height: 20px;
+    width: 200px;
+    border: 1px solid black;
 }
 
 section {
     display: inline-block;
 }
 
-#gerador {
+main {
     position: fixed;
-
-    left: 10%;
-    top: 40%;
-    transform: translateY(-40%);
-}
-
-.menu {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
-    width: 300px;
-    height: 150px;
+    width: 500px;
+    height: 500px;
     border-radius: 20px;
 }
 
-.menu2 {
-    text-align: center;
+#gerador {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+button#copiar:hover {
+    background-color: lightgray;
 }
 
 #verificador {
     position: fixed;
+    top: 45%;
+    left: 50%;
 
-    right: 10%;
-    top: 40%;
-    transform: translateY(-40%);
+    transform: translateX(-55%);
+}
+
+.menu2 {
+    text-align: center;
 }
 
 #resultado {
